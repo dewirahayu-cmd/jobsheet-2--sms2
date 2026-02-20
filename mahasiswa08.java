@@ -11,10 +11,10 @@ public class mahasiswa08 {
     }
 
     public mahasiswa08 (String nm, String nim, double ipk, String kls) {
-        nama = nm;
+        this.nama = nm;
         this.nim = nim;
         this.ipk = ipk;
-        kelas = kls;
+        this.kelas = kls;
     }
 
     void tampilkanInformasi() {
