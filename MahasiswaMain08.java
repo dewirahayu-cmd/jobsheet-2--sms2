@@ -15,5 +15,9 @@ public class MahasiswaMain08 {
         mahasiswa08 mhs2 = new mahasiswa08 ("Annisa Nabila", "2141720160", 3.25, "TI 2L");
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+
+        mahasiswa08 mhsDewi = new mahasiswa08 ("Dewi Muji Rahayu", "254107060098", 4.00, "SIB 1D");
+        mhsDewi.tampilkanInformasi();
+        System.out.println("Kinerja: " + mhsDewi.nilaiKinerja());
     }
 }
